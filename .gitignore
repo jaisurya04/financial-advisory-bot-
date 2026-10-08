@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.env
+data/*.db
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+vector_store/*
+!vector_store/.gitkeep
+.venv/
+venv/
+node_modules/
+.streamlit/secrets.toml
+*.egg-info/
+.pytest_cache/
